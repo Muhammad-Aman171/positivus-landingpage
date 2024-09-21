@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import './page.scss'
 
 import Logo1 from '@/public/logos/Company logo.png'
 import Logo2 from '@/public/logos/Company logo (1).png'
@@ -28,6 +29,15 @@ const Home: React.FC = () => {
         <Image src={Logo4} alt="logo does not show"/>
         <Image src={Logo5} alt="logo does not show"/>
         <Image src={Logo6} alt="logo does not show"/>
+      </div>
+      <div className="section3">
+        <div className="heading">
+          <h1>Services</h1>
+          <p>At our digital marketing agency, we offer a range of services to <br/> help businesses grow and succeed online. These services include:</p>
+        </div>
+        <div className="cards">
+
+        </div>
       </div>
     </div>
   );
