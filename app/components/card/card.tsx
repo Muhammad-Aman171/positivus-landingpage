@@ -9,15 +9,15 @@ import "./card.scss";
 
 const Card = () => {
   return (
-    <div className="card">
+    <div className="card font-sapce-grotesk">
       <div className="card-heading">
-        <div>
+        <div className="">
           <p>Search engine</p>
           <p>optimization</p>
         </div>
         <div className="btn">
-          <BsArrowUpRightCircleFill />
-          <p>Learn more</p>
+          <BsArrowUpRightCircleFill className="arrow-icon" />
+          <button>Learn more</button>
         </div>
       </div>
       <div className="card-img">
