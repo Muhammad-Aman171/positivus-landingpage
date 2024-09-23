@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+import { RiMenuFill } from "react-icons/ri";
+
+
 import Icon from "@/public/assets/Icon.png";
 
 const Navbar: React.FC = () => {
@@ -18,9 +21,12 @@ const Navbar: React.FC = () => {
           <li>Pricing</li>
           <li>Blog</li>
         </ul>
-        <div className="  flex items-center justify-center max-lg:border-[3px]  max-lg:w-44  ">
+        <div className="  flex items-center justify-center max-lg:border-[3px]  max-lg:w-44 max-lg:hidden  ">
           <button className="border-[1.2px]  border-[#191A23] h-16 w-48 rounded-lg font-medium ">Request a quote</button>
         </div>
+      </div>
+      <div className="lg:hidden">
+          <RiMenuFill className="border text-4xl"/>
       </div>
     </div>
   );

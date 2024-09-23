@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily:{
         'sapce-grotesk': ['var(--font-grotesk)']
       },
+      screens:{
+        '3xl': '2200px'
+      }
     },
   },
   plugins: [],
