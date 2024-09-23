@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} mx-24 2xl:mx-80`}
+        className={`${spaceGrotesk.variable} mx-24 2xl:mx-60`}
       >
         <Navbar/>
         {children}
